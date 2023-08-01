@@ -13,3 +13,4 @@ let jonas_matilda = "JM";
 let $function = 27;
 
 let person = "jonas";
+let PI = 3.14; // write constants  in uppercase
