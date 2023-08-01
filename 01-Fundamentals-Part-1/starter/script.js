@@ -51,3 +51,6 @@ const birthYear = 1998;
 // birthYear = 1999;   cant change  cost
 
 // const job;   thisi willl  show error
+
+var job = "programmer";
+job = "chef";
