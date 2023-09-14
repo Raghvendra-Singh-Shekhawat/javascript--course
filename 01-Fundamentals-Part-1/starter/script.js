@@ -154,6 +154,8 @@ console.log(century);
 */
 
 //   type conversion
+
+/*
 const inputYear = "1991";
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
@@ -164,4 +166,27 @@ console.log(typeof NaN);
 console.log(String(23), 23);
 
 //  type coercion
-console.log();
+console.log("I am" + 23 + "years old");
+
+*/
+
+// 5 falsy values: 0, '', undefined, null, NaN
+
+/*
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonsas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("You should get a job!");
+}
+
+*/
+
+//
