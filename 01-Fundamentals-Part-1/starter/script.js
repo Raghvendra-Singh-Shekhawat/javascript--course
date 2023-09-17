@@ -189,4 +189,9 @@ if (money) {
 
 */
 
-//
+// equality operators  '==' vs '===' it is strict equal and does not perform type coercion
+
+const age = 18;
+if (age === 18) console.log("you just became an adult");
+
+if (age == 18) console.log("you just became an adult");
