@@ -191,6 +191,7 @@ if (money) {
 
 // equality operators  '==' vs '===' it is strict equal and does not perform type coercion
 
+/*
 const age = 18;
 if (age === 18) console.log("you just became an adult");
 
@@ -208,4 +209,23 @@ if (favourite === 23) {
   console.log("9 is also a cool number");
 } else {
   console.log("Number is not 23 or 7 or 9");
+}
+
+*/
+
+//  logical operators
+
+const hasDriversLicence = true; //A
+const hasGoodVision = false; //B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+const shouldDrive = hasDriversLicence && hasGoodVision;
+
+if (shouldDrive) {
+  console.log("Sarah is able to Drive!");
+} else {
+  console.log("Someone else should drive...");
 }
